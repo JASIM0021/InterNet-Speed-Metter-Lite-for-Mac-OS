@@ -1,5 +1,4 @@
-//
-//  ContentView.swift
+
 //  SpeedMetter
 //
 //  Created by Sk Jasimuddin on 17/01/1947 Saka.
@@ -28,20 +27,3 @@ struct NetworkSpeedApp: App {
     }
 }
 
-struct ContentView: View {
-    @ObservedObject var monitor: NetworkMonitor
-    
-    var body: some View {
-        VStack(alignment: .leading, spacing: 8) {
-            Text("Download: \(monitor.downloadSpeed)")
-            Text("Upload: \(monitor.uploadSpeed)")
-            
-            Divider()
-            
-            Button("Quit") {
-                NSApplication.shared.terminate(nil)
-            }
-        }
-        .padding()
-    }
-}

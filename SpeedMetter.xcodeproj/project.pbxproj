@@ -10,9 +10,22 @@
 		18B11F712DA4361B00A428F0 /* SpeedMetter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedMetter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		18B11FA32DA4FBD300A428F0 /* Exceptions for "SpeedMetter" folder in "SpeedMetter" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 18B11F702DA4361B00A428F0 /* SpeedMetter */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		18B11F732DA4361B00A428F0 /* SpeedMetter */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				18B11FA32DA4FBD300A428F0 /* Exceptions for "SpeedMetter" folder in "SpeedMetter" target */,
+			);
 			path = SpeedMetter;
 			sourceTree = "<group>";
 		};
@@ -258,6 +271,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpeedMetter/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "NetSpeed Lite";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -288,6 +302,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpeedMetter/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "NetSpeed Lite";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
