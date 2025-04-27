@@ -8,7 +8,13 @@
   <em>Minimal, efficient network speed monitoring for your menu bar</em>
 </p>
 
+
+## Demo
+![Screenshot 2025-04-27 at 09 09 24](https://github.com/user-attachments/assets/62715db0-3b42-4bc3-87f6-b3733bfce257)
+
 ## 🚀 Features
+
+
 
 ### Core Functionality
 - ✅ **Real-time monitoring** of download/upload speeds
